@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@import url("http://ts.daumcdn.net/custom/blog/0/606/skin/images/nanumgothic.css");
+
+/* reset */
+*{margin: 0; padding: 0;}
+body {font-family: 'Nanum Gothic', sans-serif;}
+ul,li {margin: 0; padding: 0; list-style: none;}
+a {text-decoration: none;}
+
+
+#wrap {width:735px; margin: 0 auto;}
+
+/* contentTop */
+
+#wrap .contentTop {width: 735px; height: 200px; border-bottom: 2px solid #464646;}
+#wrap .contentTop .bar {width: 735px; height: 40px;}
+#wrap .contentTop .bar span {font-size: 8px; color: #333; margin: 0 5px;}
+#wrap .contentTop .bar a {color: #333; font-size: 12px;}
+#wrap .contentTop .bar a.greeting {color: red; font-weight: 700;}
+#wrap .contentTop .h1 {width: 735px; height: 160px; background: url(../images/flower.jpg) no-repeat right bottom;}
+#wrap .contentTop .h1 h1 {font-weight: 700; font-size: 35px; margin-bottom:5px;}
+#wrap .contentTop .h1 span {font-size: 12px; color: #636363; font-weight: 700; letter-spacing: -1.5px;}
+#wrap .contentTop .h1 .icons ul li {float: left; margin: 40px 5px 0 0;}
+
+/* section */
+#wrap section {width: 735px; height: 700px; background: url(../images/photo.png) no-repeat left top; margin-top: 40px;}
+
+/* section heading */
+#wrap section .h2 {width: 400px; height: 200px; border-bottom:2px solid #464646; float: right;}
+#wrap section h2 {text-align: justify; margin-bottom:15px; line-height: 1.5;
+font-size: 30px;}
+#wrap section h2 img {margin-left: -4px;}
+#wrap section .h2>span {font-size:14px; font-weight:700;}
+
+/* section article */
+#wrap section .article {width: 400px; line-height: 1.7; font-size: 12px; margin: 30px 0 0 0; float: right;}
+#wrap section .article p {margin-bottom:20px; color: #636363; text-align: justify;}
+#wrap section .article p.name {float: right; font-size:11px; font-weight: 700; color: #333;}
+#wrap section .article p.name span {font-size:16px; letter-spacing: 3px;}
+
