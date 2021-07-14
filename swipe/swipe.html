@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 이동현 - swipeSlider </title>
+    <link rel="stylesheet" href="css/swipe.css">
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/swipe.js"></script>
+    <script src="js/sw.js"></script>
+</head>
+<body>
+    <!-- 
+        swipe 7가지 옵션 종류 
+       1000 : 1초
+    1. auto : 이동시간 설정
+    2. callback : 익명함수
+       이벤트가 완전히 완료되면, 익명함수에 스크립트 코드를 실행.
+    3. starSlide : 숫자(default : 0)
+       인덱스 값으로 초기에 열릴 슬라이드 지정
+    4. transitionEnd : 익명함수
+       슬라이드 전환이 완료되면 익명함수에 스크립트 코드 실행
+    5. stopPropagation : 논리값(default : false)
+       브라우저에 스크롤바를 사용할것인지 여부를 결정.
+    6. continuous : 논리값(default : true)
+       슬라이드 이동시 연속적으로 반복, 롤링되어 나오게 할것인지 설정.
+    7. disableScroll : 논리값(default : false)
+       브라우저에 스크롤을 사용할것인지 결정-->
+
+       <h1> swipe slider </h1> 
+       <!-- #mySwipe.swipe -->
+       <!-- 사진배치 -->
+       <div id="mySwipe" class="swipe">
+           <!-- ul.swipe-wrap>li*4>a>img -->
+           <ul class="swipe-wrap">
+               <li><a href="#"><img src="images/pic_1.jpg" alt="사진1"></a></li>
+               <li><a href="#"><img src="images/pic_2.jpg" alt="사진2"></a></li>
+               <li><a href="#"><img src="images/pic_3.jpg" alt="사진3"></a></li>
+               <li><a href="#"><img src="images/pic_4.jpg" alt="사진4"></a></li>
+           </ul>
+       </div>
+       <!-- 이전,다음 버튼배치 -->
+       <!-- .btn_wrap>button.prevBtn{prev} -->
+       <div class="btn_wrap">
+           <button class="prevBtn">prev</button>
+           <button class="nextBtn">next</button>
+       </div>
+   </body>
+   </html>
