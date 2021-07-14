@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+/* reset */
+* {margin: 0; padding: 0;}
+ul,li {margin: 0; padding: 0; list-style:none;}
+a {text-decoration: none;}
+
+#wrap {width: 1200px; margin: 0 auto; position: relative; background: #000;}
+
+
+#wrap header{width: 1200px;  height:150px;
+ position: relative; background: rgb(255, 255, 255);}
+#wrap header .logo img {position: absolute; left:0; top:10px;
+width:100px;}
+
+
+#wrap header .topNav {position: absolute; right: 0; top: 15px;}
+#wrap header .topNav ul li {float: left;}
+#wrap header .topNav ul li a {
+    margin-right: 3px;
+    background: #e71a0f;
+    border-radius : 30px;
+    box-sizing: border-box;
+    padding: 6px 18px;
+    font-size: 10px;
+    color:#fff;
+}
+#wrap header .topNav ul li a:hover {
+    background: #666;
+}
+#wrap header .topNav ul li.sr {
+    width: 194px; height: 25px;
+    border: 1px solid red;
+    border-radius : 15px;
+}
+#wrap header .topNav ul li.sr .input-text {
+    width: 130px;
+    margin: 0  12px 5px 5px;
+    padding: 2px;
+    border: none;
+}
+#wrap header .topNav ul li.sr input::placeholder {color: #ddd;}
+#wrap header .topNav ul li.sr input:focus {outline: none;}
+#wrap header .topNav ul li.sr .input-img {
+    padding-left: 10px;
+    width: 15px; height: 15px;
+    vertical-align: middle;
+}
+#wrap header .topNav ul li.sr .input-img:hover {
+    opacity: 0.6;
+}
+
+
+
+ #wrap header .menu {
+     width: 1200px; height: 100px;
+position: absolute; bottom: 0;}
+
+#wrap header .menu ul li {
+    float: left;
+    margin:25px 1px 0 0;
+    width: 199px; height:50px; line-height:50px;
+    text-align:center;
+}
+#wrap header .menu ul li a {
+display: block;
+background: #000;
+box-sizing: border-box;
+font-size:15px;
+font-weight: bold; 
+color:#fff;
+transition:.3s;
+}
+#wrap header .menu ul li a:hover {
+    background: #e71a0f;
+    border-top:3px solid #000;
+    padding-top: 3px;
+}
+#wrap header .menu ul li a.gr {
+   background: linear-gradient(
+     140deg, 
+     #007adf,#00ecbc, 
+    #214fad,#e14fad 60%,
+     #b334ef, #ff4e50, #ff9a44);}
+
+
+#wrap .slider {width: 1200px; height: 300px;
+     position:relative; overflow: hidden; top: 150px;}
+#wrap .slider>div {position: absolute; top:0; left:0;}
+#wrap .slider img{display: block;} 
+#wrap .slider .sliderList{width: 3600px;} 
+#wrap .slider .sliderList .sliderImg{float: left;} 
+
+
+
+#wrap .section {width: 1200px; height:750px; position: relative; padding-top:300px;}
+#wrap .section .con {float: left;}
+#wrap .section .con img {float: left; display: block;}
+
+#wrap .banner {width: 1200px; height: 100px;}
+#wrap .banner a {margin: 0 0 0 65px; }
+#wrap .banner img {margin-top: 40px;}
+
+#wrap footer {width: 1200px; height: 100px; 
+background: #000;}
+#wrap footer .bmenu {width: 1200px; height: 100px;}
+#wrap footer .bmenu p {line-height: 2; font-size: 12px;
+    color: rgb(168, 168, 168); text-align: center; padding-top:20px;}
+
+    
+#wrap #quick {width: 100px; height: 150px;  
+    position: absolute; top:300px; left:101%; z-index: 2;}
+#quick .btn1{position: absolute; top: 5px; left: 5px; margin: 15px 0 0 0;}
+#quick .btn1:hover {opacity: 0.7;}
+#quick .btn2{position: absolute; top: 130px; left: 5px;}
+#quick .btn2:hover {opacity: 0.7;}
+#quick .btn3{position: absolute; top: 245px; left: 5px;}
+#quick .btn3:hover {opacity: 0.7;}
+#quick .btn4{position: absolute; top: 360px; left: 5px;}
+#quick .btn4:hover {opacity: 0.7;}
