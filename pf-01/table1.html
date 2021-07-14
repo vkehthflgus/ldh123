@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> table1 </title>
+    <style>
+        .blind {
+            position: absolute; top:0; left:0;
+            text-indent:-9999999999999999px;
+            width: 0;
+            height: 0;
+            font-size:0;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="blind">표 만들기</h1>
+    <!-- table>tr>td*2 -->
+    <table border="1">   
+        <caption class="blind">커뮤니티</caption>
+<!-- 제목 -->
+        <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>구분</th>
+                    <th>제목</th>
+                    <th>등록일</th>
+                    <th>조회수</th>
+                </tr>
+        </thead>
+        <!-- 내용 -->
+        <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>공지사항</td>
+                    <td>손흥민선수...</td>
+                    <td>21-03-22</td>
+                    <td>3335</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>보도자료</td>
+                    <td>어찌 이런일이..</td>
+                    <td>21-03-22</td>
+                    <td>122255</td>
+                </tr>
+            </tbody>
+</table>
+</body>
+</html>

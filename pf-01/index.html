@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JJA </title>
+    <!-- link enter -->
+    <!-- / > 폴더 -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
+
+    <!-- 페비콘 -->
+    <link rel="shoutcut icon" href="images/bug.svg">
+   
+
+    <!-- script:src -->
+    <script src="script/jquery-1.11.3.js"></script>
+    <script src="script/jquery.innerfade.js"></script>
+    <script>
+        // 페이드인아웃 - 플러그인
+        $(function(){
+            $('.inner-fade').innerfade({
+                animationtype:'fade',
+                timeout:2000 //2000 > 2초 //
+            });
+        });
+    </script>
+</head>
+<body>
+    <!-- #wrap>header+section.me+section.phto+footer -->
+    <div id="wrap">
+        <!-- <header> </header> -->
+        <header>
+            <!-- .logo+.menu (enter) -->
+            <div class="logo">
+            <a href="index.html">Jangseang</a>
+        </div>
+
+            <div class="menu">
+                <!-- <ul>li*6>a{menu} enter -->
+                    <ul>
+                        <li><a href="#">전시관 안내</a></li>
+                        <li><a href="#">전시장 영상</a></li>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">전시 동물</a></li>
+                        <li><a href="#">이벤트</a></li>
+                        <li><a href="#">후기</a></li>
+                </ul>
+            </div> 
+        </header>
+        <section class="me">
+            <h2 class="blind"> 슬라이드 </h2>
+            <!-- ul>li>a>img -->
+            <ul class="inner-fade">
+                <li><a href="#"><img src="images/slider0.jpg" alt="전시관1"></a></li>
+                <li><a href="#"><img src="images/slider01.jpg" alt="전시관2"></a></li>
+                <li><a href="#"><img src="images/slider_0.jpg" alt="전시관_선생님들"></a></li>
+            </ul>
+            <!-- a>img
+        <a href="https://cafe.daum.net/reptile-psm/N38R"><img src="images/slider0.jpg" alt="폿폴이미지"></a> -->
+        </section>
+        <section class="info">
+            <!-- .notice+.banner -->
+            <div class="notice">
+            <h1> 공지사항 </h1>
+            <!-- ul>li>span.t+a+span -->
+            <ul>
+                <li><span class="a1">[이벤트]</span><a href="#">새로 태어난 돼지의 이름을 지어주세요 </a><spaN>21-03-12</spaN></li>
+                <li><span class="a2">[연휴일정]</span><a href="#">공휴일알림</a><spaN>21-03-12</spaN></li>
+                <li><span class="a3">[커뮤니티]</span><a href="#">단체손님 예약</a><spaN>21-03-12</spaN></li>
+                <li><span class="a4">[일반할인]</span><a href="#">오픈 기념 2개월동안 10%할인! </a><spaN>21-03-12</spaN></li>
+                <li><span class="a5">[소셜 이벤트]</span><a href="#">후기작성시 30%할인 </a><spaN>21-03-12</spaN></li>
+                <li><span class="a6">[연동 이벤트]</span><a href="#">인근 전시관과 연동 할인 </a><spaN>21-03-12</spaN></li>
+                <li><span class="a7">[지역 전시장오픈안내]</span><a href="#">신도림 테크노마트 전시관 </a><spaN>21-03-12</spaN></li>
+                <li><span class="a8">[소형 관상어 판매중]</span><a href="#">금붕어, 구피 판매중 </a><spaN>21-03-12</spaN></li>
+                
+            </ul>
+            </div>
+            <div class="banner">
+               <a href="#"><img src="images/17.jpg" alt="배너"></a>
+            </div>
+        </section>
+
+      
+        <section class="photo">
+            <h2 class="blind"> 포토갤러리 </h2>
+        <a href="#"><img src="images/5.jpg" alt="이미지5"></a>    
+        <a href="#"><img src="images/6.jpg" alt="이미지6"></a>    
+        <a href="#"><img src="images/7.jpg" alt="이미지7"></a>    
+        <a href="#"><img src="images/8.jpg" alt="이미지8"></a>    
+        <a href="#"><img src="images/9.jpg" alt="이미지9"></a>    
+        <a href="#"><img src="images/10.jpg" alt="이미지10"></a>    
+        </section>
+
+        <footer>
+            <!-- .blogo+.copyright+.sns -->
+            <div class="blogo">
+                <a href="index.html">Jangseang</a>
+            </div>
+            <div class="copyright">
+
+            
+
+            <p>
+               장생족장과 정글대탐험 대표이사 : 전영열 <br />
+               Copyright &copy; 2021
+               <a href="mailto:j681109@hanmail.net">Jangseang</a>
+               All Rights Reserved. 
+            </p>
+
+        </div>
+            <div class="sns">
+            <!-- ul>li>a>img     -->
+            <ul>
+                <li><a href="https://www.facebook.com/profile.php?id=100006597523694"><img src="images/f.png" alt="페이스북"></a></li>
+                <li><a href="#"><img src="images/i.png" alt="인스타그램"></a></li>
+                <li><a href="#"><img src="images/t.png" alt="트위터"></a></li>
+                <li><a href="#"><img src="images/y.png" alt="유투브"></a></li>
+                <li><a href="#"><img src="images/b.png" alt="밴드"></a></li>
+            </ul>    
+            </div>
+
+        </footer>
+    </div>
+</body>
+</html>
